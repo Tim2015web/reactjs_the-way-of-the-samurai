@@ -1,0 +1,13 @@
+.app {
+  max-width: 1200px;
+  padding: 20px;
+
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav content content";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2.5fr 10fr;
+  gap: 16px;
+  margin: 0 auto;
+}

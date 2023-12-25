@@ -1,0 +1,71 @@
+.auth {
+  margin-right: -16px;
+  background-color: tan;
+  border-radius: 4px;
+  gap: 16px;
+  padding: 16px;
+
+  h2 {
+    color: purple;
+  }
+}
+
+.authForm {
+  display: grid;
+  max-width: 300px;
+  margin: 24px auto;
+  gap: 16px;
+  border: 2px solid white;
+  padding: 24px;
+  border-radius: 4px;
+
+  div:not(:nth-child(3n)) {
+    display: grid;
+    gap: 8px;
+  }
+
+  div:nth-child(3n) {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  div>label {
+    color: navy;
+    font-weight: 500;
+  }
+
+  div>input {
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darkorange;
+      /* Новый цвет фона при наведении */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      /* Тень при наведении */
+    }
+  }
+}
+
+.formError {
+  border: 1px solid red;
+  padding: 8px;
+  color: red;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 4px;
+}

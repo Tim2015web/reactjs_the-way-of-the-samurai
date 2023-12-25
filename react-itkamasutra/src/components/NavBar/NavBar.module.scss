@@ -1,0 +1,43 @@
+.sidebar {
+  grid-area: nav;
+  background-color: deepskyblue;
+  border-radius: 4px;
+
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  ul {
+    padding: 16px;
+    display: grid;
+    gap: 8px;
+  }
+}
+
+.item a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover {
+    color: navy;
+    text-decoration: underline;
+  }
+}
+
+.item .active {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+.sideBar {
+  padding: 16px;
+  border-top: 20px solid #ffffff;
+  border-bottom: 20px solid #ffffff;
+
+  h2 {
+    color: #ffffff;
+  }
+}

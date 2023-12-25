@@ -1,0 +1,22 @@
+.formControl {
+  display: grid;
+
+  span {
+    margin: 10px auto 0 auto;
+    font-weight: 500;
+  }
+
+  input {}
+}
+
+.error {
+
+  input,
+  textarea {
+    border: 1px solid red;
+  }
+
+  span {
+    color: red;
+  }
+}
